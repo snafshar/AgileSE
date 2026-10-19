@@ -1,0 +1,6 @@
+id,risk,likelihood,impact,early_warning,mitigation,owner,status
+R1,External API contract changes,Medium,High,Integration tests start failing,Pin and monitor supported API versions,,
+R2,Key contributor unavailable,Low,High,Single-person ownership persists,Share runbooks and pair on critical areas,,
+R3,Release date slips,Medium,Medium,Acceptance criteria remain ambiguous,Reduce scope and confirm priorities early,,
+R4,Test suite becomes flaky,Medium,Medium,Repeated retry-only green builds,Track flaky cases and fix root causes,,
+R5,Sensitive data reaches logs,Low,High,Debug output includes user payloads,Use synthetic fixtures and review logging,,
